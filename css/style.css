@@ -1,43 +1,40 @@
 body {
+    font-family: 'Texturina', serif; /* Replace with your chosen font */
     margin: 20px;
-    font-family: 'Roboto', sans-serif;
 }
 
+
 .main-container {
-    display: flex;                  /* Use Flexbox layout */
-    justify-content: space-between; /* Space between the text and image */
+    display: flex;                  /* Use Flexbox for layout */
+    justify-content: space-between; /* Space between header and image */
     align-items: flex-start;        /* Align items at the top */
     width: 100%;                    /* Full-width container */
 }
 
 .header-container {
-    display: flex;                  /* Flexbox for text stacking */
-    flex-direction: column;         /* Stack name and projects vertically */
-    width: 100%;                    /* Allow the text to take up full width */
+    display: flex;
+    flex-direction: column;         /* Stack items vertically */
+    flex-grow: 1;                   /* Allow the header container to take up available space */
 }
 
 .profile-image {
-    position: absolute;             /* Position the image absolutely */
-    top: 20px;                      /* Keep it aligned with the text */
-    right: 20px;                    /* Push it to the far right of the screen */
     width: 200px;                   /* Set image width */
     height: auto;                   /* Maintain aspect ratio */
 }
 
 h1 {
-    margin: 0;
+    margin: 0;                      /* Remove default margin */
 }
 
 .projects-container {
-    margin-top: 20px;               /* Space between name and projects */
+    margin-top: 10px;               /* Space above projects */
 }
 
 h2 {
-    margin: 0;
-    margin-top: 10px;
+    margin: 0;                      /* Remove margin to keep it close to the previous text */
 }
 
 .projects-container p {
-    margin: 0;
-    margin-top: 5px;
+    margin: 0;                      /* Remove margin from paragraphs */
+    margin-top: 5px;                /* Space between project items */
 }

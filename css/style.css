@@ -1,40 +1,38 @@
 body {
-    font-family: 'Texturina', serif; /* Replace with your chosen font */
+    font-family: 'Texturina', serif;
     margin: 20px;
 }
 
-
+/* Keep layout with flexbox */
 .main-container {
-    display: flex;                  /* Use Flexbox for layout */
-    justify-content: space-between; /* Space between header and image */
-    align-items: flex-start;        /* Align items at the top */
-    width: 100%;                    /* Full-width container */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
 }
 
-.header-container {
+/* Replaces .header-container */
+header {
     display: flex;
-    flex-direction: column;         /* Stack items vertically */
-    flex-grow: 1;                   /* Allow the header container to take up available space */
+    flex-direction: column;
+    flex-grow: 1;
 }
 
 .profile-image {
-    width: 200px;                   /* Set image width */
-    height: auto;                   /* Maintain aspect ratio */
+    width: 200px;
+    height: auto;
 }
 
-h1 {
-    margin: 0;                      /* Remove default margin */
+/* General text styling */
+h1, h2 {
+    margin: 0;
 }
 
 .projects-container {
-    margin-top: 10px;               /* Space above projects */
-}
-
-h2 {
-    margin: 0;                      /* Remove margin to keep it close to the previous text */
+    margin-top: 10px;
 }
 
 .projects-container p {
-    margin: 0;                      /* Remove margin from paragraphs */
-    margin-top: 5px;                /* Space between project items */
+    margin: 0;
+    margin-top: 5px;
 }

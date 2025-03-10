@@ -1,5 +1,5 @@
 body {
-    font-family: 'Texturina', serif; /* Replace with your chosen font */
+    font-family: 'Nunito Sans', sans-serif; /* Replace with your chosen font */
     margin: 20px;
 }
 
@@ -7,14 +7,6 @@ body {
 .main-container {
     display: flex;                  /* Use Flexbox for layout */
     justify-content: space-between; /* Space between header and image */
-    align-items: flex-start;        /* Align items at the top */
-    width: 100%;                    /* Full-width container */
-}
-
-.header-container {
-    display: flex;
-    flex-direction: column;         /* Stack items vertically */
-    flex-grow: 1;                   /* Allow the header container to take up available space */
 }
 
 .profile-image {
@@ -26,15 +18,6 @@ h1 {
     margin: 0;                      /* Remove default margin */
 }
 
-.projects-container {
-    margin-top: 10px;               /* Space above projects */
-}
-
 h2 {
     margin: 0;                      /* Remove margin to keep it close to the previous text */
-}
-
-.projects-container p {
-    margin: 0;                      /* Remove margin from paragraphs */
-    margin-top: 5px;                /* Space between project items */
 }
